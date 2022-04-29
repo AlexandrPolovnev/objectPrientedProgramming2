@@ -1,11 +1,11 @@
 package OOP2;
 
 public class Vehicle {
-    public static String modelName;
+    public  String modelName;
     public int wheelsCount;
 
     public Vehicle (String modelName, int wheelsCount){
-        Vehicle.modelName = modelName;
+        this.modelName = modelName;
         this.wheelsCount = wheelsCount;
     }
     public static void addToUpdateTyre(UpdateTyre vehicle) {
